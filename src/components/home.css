@@ -1,0 +1,54 @@
+.home-text .heading h1{
+    color: #5cdbd1;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+.home-text .heading h1 span{
+    color: #209dfc;
+}
+.home{
+    padding: 150px 50px;
+    padding-bottom:20px ;
+}
+.home-text{
+    width: 70vw;
+}
+.home-text p{
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 10px;
+}
+.home-btns button{
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 30px;
+    border: 1px solid #0dcaf0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.home-btns{
+    display: flex;
+    gap: 30px;
+}
+.home-btns .demo{
+    background: linear-gradient(to right, #209dfc, #5cdbd1) !important;
+    color: black;
+}
+.home-btns .demo:hover{
+    background: linear-gradient(to right,#5cdbd1, #209dfc ) !important;
+}
+.home-btns .watch{
+    background: transparent;
+    color: #0dcaf0;
+}
+.home-btns .watch:hover{
+    background: linear-gradient(to right,#5cdbd1, #209dfc ) !important;
+    color: black;
+}

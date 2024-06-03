@@ -1,0 +1,128 @@
+.footer {
+    margin-top: 100px;
+    padding: 50px;
+    background-color: rgba(33,37,41,1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-us {
+    width: 20%;
+}
+
+.about-us img {
+    margin-bottom: 20px;
+}
+
+.about-us-txt {
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.about-us-txt p {
+    padding: 8px 0;
+    font-weight: 300;
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.industry {
+    width: 20%;
+    position: relative;
+}
+
+.industry h1 {
+    font-family: 'Benedic', sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: white;
+    position: relative;
+    padding-left: 35px; /* Adjust padding to make space for the ::before element */
+}
+
+.industry h1::before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 4px;
+    background: #3c9bf6;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.industry-txt {
+    margin-top: 17px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;     
+    padding-left: 30px;
+}
+
+.industry-txt p {
+    padding: 5px 0;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icon {
+    background: linear-gradient(to right, #209dfc, #5cdbd1);
+    border: 1px solid white;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+    background: linear-gradient(to right, #5cdbd1, #209dfc);        
+}
+
+.input input {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    font-family: sans-serif;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 90%;
+}
+
+.input input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.bottom{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+.copyright{
+    color: white;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.social{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}

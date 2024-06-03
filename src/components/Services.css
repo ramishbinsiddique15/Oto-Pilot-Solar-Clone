@@ -1,0 +1,51 @@
+.services .about-text h1,.services .about-text p{
+    text-align: center;
+}
+.services .about-text{
+    padding: 20px 350px;
+}
+.services{
+    margin-top: 20px;
+}
+.banner {
+    height: 400px;
+    width: 300px;
+    background-color: #111111aa;
+}
+.services-cards{
+    display: flex;
+    padding:50px 150px;
+    justify-content: space-around;
+}
+.services-cards .card{
+    display: flex;
+    width: 25%;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.services-cards .card h1{
+    font-family: 'Benedic', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #209dfc;
+}
+.services-cards .card button{
+    width: 100%;
+    color: #5cdbd1;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid rgba(13,202,240,1);
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    background-color: #212529;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: 700;
+}
+.services-cards .card button:hover{
+    background: #424649;
+    color: white;
+}

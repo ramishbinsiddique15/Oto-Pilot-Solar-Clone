@@ -1,0 +1,26 @@
+.partners .about-text h1,.partners .about-text p{
+    text-align: center;
+}
+.partners .about-text{
+    padding: 20px 350px;
+}
+
+.partner-cards {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.partner-cards .card {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    min-width: 25%;
+    border: 1px solid #5cdbd1;
+}
+
+.partner-cards .card:last-child {
+    grid-column: 2;
+    justify-self: center;
+}
